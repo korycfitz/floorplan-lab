@@ -5,12 +5,12 @@ import BathList from "./BathList";
 
 function FloorPlan(props) {
   return (
-    <div>
+    <>
       <Kitchen />
       <LivingRoom />
       <BedroomList />
       <BathList />
-    </div>
+    </>
   )
 }
 
