@@ -1,8 +1,16 @@
 import Kitchen from "./Kitchen";
+import LivingRoom from "./LivingRoom";
+import BedroomList from "./BedroomList";
+import BathList from "./BathList";
 
 function FloorPlan(props) {
   return (
-    <h1>Kitchen</h1>
+    <div>
+      <Kitchen />
+      <LivingRoom />
+      <BedroomList />
+      <BathList />
+    </div>
   )
 }
 

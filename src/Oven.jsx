@@ -1,4 +1,3 @@
-
 function Oven(props) {
   return (
     <h1>Kitchen</h1>
