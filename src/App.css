@@ -53,13 +53,12 @@
   width: 40vh;
 }
 
-.kitchen {
-  background-color: rgb(226, 151, 13);
-  width: 20vh;
-}
-
 #kitchen {
+  position:absolute;
+  margin-top: 5vh;
   height: calc(60vh - 5vh);
+  width: 20vh;
+  background-color: rgb(226, 151, 13);
 }
 
 .oven {
@@ -68,12 +67,11 @@
   width: 10vh;
   display: inline-block;
   height: 5vh;
-
 }
 
 .sink {
   position: relative;
-  background-color: rgba(74, 43, 17, 0.444);
+  background-color: rgba(162, 89, 29, 0.531);
   width: 10vh;
   display: inline-block;
   height: 5vh;
