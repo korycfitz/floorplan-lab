@@ -1,12 +1,54 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
-div {
-  border: 1px solid grey;
-  margin: 5px;
-  padding: 5px;
+.floor-plan-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bedroom {
+  background-color: rgb(25, 91, 135);
+}
+
+.bath {
+  background-color: rgb(76, 124, 64);
+}
+
+.container-1 {
+  width: 40vh;
+}
+
+#bedroom-1 {
+  height: 40vh;
+}
+
+#full-bath {
+  height: 20vh;
+}
+
+#bedroom-2 {
+  height: 40vh;
+}
+
+.living-room {
+  background-color: tan;
+}
+
+.kitchen {
+  background-color: rgb(226, 151, 13);
+}
+
+.oven {
+  background-color: brown;
+  margin: 0;
+  padding: 0;
+}
+
+.sink {
+  background-color: rgba(74, 43, 17, 0.444);
+  margin: 0;
+  padding: 0;
 }

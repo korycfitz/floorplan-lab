@@ -1,6 +1,6 @@
-function Sink(props) {
+function Sink() {
   return (
-    <div>
+    <div className="sink">
       Sink
     </div>
   )
