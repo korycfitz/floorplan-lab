@@ -7,6 +7,7 @@
 .floor-plan-container {
   display: flex;
   flex-wrap: wrap;
+  width: 100vh;
 }
 
 .bedroom {
@@ -23,56 +24,81 @@
 
 #bedroom-1 {
   height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #full-bath {
   height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #bedroom-2 {
   height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .living-room {
   background-color: tan;
   height: 60vh;
   width: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #half-bath {
   position: absolute;
   height: 40vh;  
   width: 20vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #bedroom-3 {
   position: absolute;
-  display: inline-block;
   height: 40vh;  
   width: 40vh;
+  margin-left: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #kitchen {
-  position:absolute;
+  position: absolute;
   margin-top: 5vh;
   height: calc(60vh - 5vh);
   width: 20vh;
   background-color: rgb(226, 151, 13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .oven {
-  position: relative;
-  background-color: brown;
+  position: absolute;
+  background-color: rgb(181, 68, 37);
   width: 10vh;
-  display: inline-block;
   height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sink {
-  position: relative;
+  position: absolute;
+  margin-left: 10vh;
   background-color: rgba(162, 89, 29, 0.531);
   width: 10vh;
-  display: inline-block;
   height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
