@@ -35,20 +35,37 @@
 
 .living-room {
   background-color: tan;
+  height: 60vh;
+  width: 40vh;
+}
+
+#half-bath {
+  height: 40vh;  
+  width: 20vh;
+}
+
+.container-3 {
+
 }
 
 .kitchen {
   background-color: rgb(226, 151, 13);
+  width: 40vh;
 }
 
 .oven {
+  position: relative;
   background-color: brown;
-  margin: 0;
-  padding: 0;
+  width: 10vh;
+  display: inline-block;
+  height: 7vh;
+
 }
 
 .sink {
+  position: relative;
   background-color: rgba(74, 43, 17, 0.444);
-  margin: 0;
-  padding: 0;
+  width: 10vh;
+  display: inline-block;
+  height: 7vh;
 }

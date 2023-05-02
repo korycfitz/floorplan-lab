@@ -19,11 +19,17 @@ function FloorPlan() {
       </div>
       <div className="container-2">
         <LivingRoom />
-        <Bath size='Half'/>
+        <div className="bath" id="half-bath">
+          <Bath size='Half'/>
+        </div>
       </div>
       <div className="container-3">
-        <Kitchen />
-        <Bedroom id="bedroom-3" bedNum={3}/>
+        <div>
+          <Kitchen />
+        </div>
+        <div className="bedroom" id="bedroom-3" >
+          <Bedroom bedNum={3}/>
+        </div>
       </div>
     </div>
   )
