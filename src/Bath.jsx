@@ -1,8 +1,6 @@
 function Bath(props) {
   return (
-    <>
-      <div>{props.size} Bath</div>
-    </>
+    <div>{props.size} Bath</div>
   )
 }
 

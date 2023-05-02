@@ -1,8 +1,8 @@
 function Bedroom(props) {
   return (
-    <>
-      <div>Bedroom {props.BedNum}</div>
-    </>
+    <div>
+      Bedroom {props.bedNum}
+    </div>
   )
 }
 
