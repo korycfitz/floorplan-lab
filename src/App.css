@@ -40,17 +40,26 @@
 }
 
 #half-bath {
+  position: absolute;
   height: 40vh;  
   width: 20vh;
+
 }
 
-.container-3 {
-
+#bedroom-3 {
+  position: absolute;
+  display: inline-block;
+  height: 40vh;  
+  width: 40vh;
 }
 
 .kitchen {
   background-color: rgb(226, 151, 13);
-  width: 40vh;
+  width: 20vh;
+}
+
+#kitchen {
+  height: calc(60vh - 5vh);
 }
 
 .oven {
@@ -58,7 +67,7 @@
   background-color: brown;
   width: 10vh;
   display: inline-block;
-  height: 7vh;
+  height: 5vh;
 
 }
 
@@ -67,5 +76,5 @@
   background-color: rgba(74, 43, 17, 0.444);
   width: 10vh;
   display: inline-block;
-  height: 7vh;
+  height: 5vh;
 }
