@@ -1,6 +1,8 @@
 function LivingRoom(props) {
   return (
-    <h1>LivingRoom</h1>
+    <div>
+      Living Room
+    </div>
   )
 }
 

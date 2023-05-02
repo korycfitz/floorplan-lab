@@ -1,6 +1,8 @@
 function Bedroom(props) {
   return (
-    <h1>Kitchen</h1>
+    <>
+      <div>Bedroom {props.BedNum}</div>
+    </>
   )
 }
 
