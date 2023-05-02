@@ -22,83 +22,61 @@
   width: 40vh;
 }
 
-#bedroom-1 {
-  height: 40vh;
+#bedroom-1, #bedroom-2, #bedroom-3, #half-bath, #full-bath, #oven, #kitchen, #sink, .living-room {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#sink, #oven, #bedroom-3, #kitchen, #half-bath {
+  position: absolute;
+}
+
+#bedroom-1 {
+  height: 40vh;
 }
 
 #full-bath {
   height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #bedroom-2 {
   height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .living-room {
   background-color: tan;
   height: 60vh;
   width: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #half-bath {
-  position: absolute;
   height: 40vh;  
   width: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #bedroom-3 {
-  position: absolute;
   height: 40vh;  
   width: 40vh;
   margin-left: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #kitchen {
-  position: absolute;
   margin-top: 5vh;
   height: calc(60vh - 5vh);
   width: 20vh;
   background-color: rgb(226, 151, 13);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.oven {
-  position: absolute;
+#oven {
   background-color: rgb(181, 68, 37);
   width: 10vh;
   height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.sink {
-  position: absolute;
+#sink {
   margin-left: 10vh;
   background-color: rgba(162, 89, 29, 0.531);
   width: 10vh;
   height: 5vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

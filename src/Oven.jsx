@@ -1,6 +1,6 @@
 function Oven() {
   return (
-    <div className="oven">
+    <div id="oven">
       Oven
     </div>
   )

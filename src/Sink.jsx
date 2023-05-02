@@ -1,6 +1,6 @@
 function Sink() {
   return (
-    <div className="sink">
+    <div id="sink">
       Sink
     </div>
   )
